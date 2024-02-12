@@ -27,10 +27,10 @@ ABOUT = load_about()
 setup(
     name="tutor-contrib-enable-feature-flag",
     version=ABOUT["__version__"],
-    url="https://github.com/pomegranited/tutor-contrib-enable-feature-flag",
+    url="https://github.com/athar-team/enable-feature-flag",
     project_urls={
-        "Code": "https://github.com/pomegranited/tutor-contrib-enable-feature-flag",
-        "Issue tracker": "https://github.com/pomegranited/tutor-contrib-enable-feature-flag/issues",
+        "Code": "https://github.com/athar-team/enable-feature-flag",
+        "Issue tracker": "https://github.com/athar-team/enable-feature-flag/issues",
     },
     license="AGPLv3",
     author="Jillian Vogel",
