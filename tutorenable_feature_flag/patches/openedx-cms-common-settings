@@ -1,5 +1,5 @@
-ENABLE_DYNAMIC_REGISTRATION_FIELDS : True
-REGISTRATION_EXTRA_FIELDS : {
+ENABLE_DYNAMIC_REGISTRATION_FIELDS = True
+REGISTRATION_EXTRA_FIELDS = {
     "confirm_email": "hidden",
     "level_of_education": "optional",
     "gender": "optional",
