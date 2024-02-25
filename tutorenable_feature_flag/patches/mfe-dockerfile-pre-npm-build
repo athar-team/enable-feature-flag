@@ -1,3 +1,2 @@
 ENV ENABLE_DYNAMIC_REGISTRATION_FIELDS=true
 ENV NO_PROXY=registry.npmjs.org
-RUN npm config set NO_PROXY=registry.npmjs.org
