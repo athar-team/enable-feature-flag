@@ -1,14 +1,14 @@
 ENABLE_DYNAMIC_REGISTRATION_FIELDS = True
 REGISTRATION_EXTRA_FIELDS = {
-    "confirm_email": "required",
+    "confirm_email": "hidden",
     "level_of_education": "required",
     "gender": "required",
     "year_of_birth": "required",
-    "mailing_address": "required",
-    "goals": "required",
+    "mailing_address": "hidden",
+    "goals": "hidden",
     "honor_code": "required",
     "terms_of_service": "required",
     "city": "required",
     "country": "required",
-    "marketing_emails_opt_in": "required",
+    "marketing_emails_opt_in": "hidden",
 }
