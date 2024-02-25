@@ -1,2 +1,4 @@
 ENV ENABLE_DYNAMIC_REGISTRATION_FIELDS=true
 ENV NO_PROXY=registry.npmjs.org
+RUN npm config set noproxy=registry.npmjs.org
+RUN npm config set maxsockets=5
