@@ -1,3 +1,4 @@
+ENABLE_COMBINED_LOGIN_REGISTRATION = True
 ENABLE_DYNAMIC_REGISTRATION_FIELDS = True
 REGISTRATION_EXTRA_FIELDS = {
     "confirm_email": "hidden",
@@ -11,4 +12,6 @@ REGISTRATION_EXTRA_FIELDS = {
     "city": "required",
     "country": "required",
     "marketing_emails_opt_in": "hidden",
+    "mobile_number": "required",
+    "job_title": "required"
 }
