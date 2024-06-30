@@ -12,6 +12,6 @@ REGISTRATION_EXTRA_FIELDS = {
     "city": "required",
     "country": "required",
     "marketing_emails_opt_in": "hidden",
-    "mobile_number": "required",
-    "job_title": "required"
+    "mobile_number": "hidden",
+    "job_title": "hidden"
 }
